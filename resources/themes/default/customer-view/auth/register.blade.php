@@ -125,14 +125,12 @@
                             
                             <div class="flex-between row" style="direction: {{ Session::get('direction') }}">
                                 <div class="mx-1">
-                                    {{--
                                     <div class="text-right">
                                         <button class="btn btn--primary" id="sign-up" type="submit" disabled>
                                             <i class="czi-user {{Session::get('direction') === "rtl" ? 'ml-2 mr-n1' : 'mr-2 ml-n1'}}"></i>
                                             {{\App\CPU\translate('sign_up')}}
                                         </button>
                                     </div>
-                                     --}}
                                 </div>
                                 <div class="mx-1">
                                     <a class="btn btn-outline-primary" href="{{route('customer.auth.login')}}">
