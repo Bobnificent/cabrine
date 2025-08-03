@@ -6,6 +6,7 @@
 .vscode
 .idea
 .env
+.htaccess
 .env.backup
 .phpunit.result.cache
 Homestead.json
